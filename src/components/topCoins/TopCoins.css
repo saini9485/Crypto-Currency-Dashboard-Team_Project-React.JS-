@@ -1,0 +1,105 @@
+.top_coin_card {
+  width: 100%;
+  margin: 1rem 0 2rem;
+  display: flex;
+  flex-wrap: wrap; 
+   align-items: center;
+  justify-content: space-around;
+}
+
+.top_coins_container{
+  display: flex;
+}
+.m-5{
+  margin-bottom: 5rem;
+}
+
+.Loader,.fa-refresh{
+  display: block;
+  margin: auto;
+}
+
+
+/* coin-box */
+.coin_box {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: #b7f9b6;
+  padding: 1rem;
+}
+
+.top_coin_data {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1rem;
+}
+
+.top_coin_data img{
+  width: 40px;
+}
+
+.coins_symbol {
+  font-weight: bold;
+}
+
+.coin_price {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart_profit_loss{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.chart_profit_loss img{
+  width: 25px;
+  height: 25px;
+}
+
+.ProfitLoss {
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: bold;
+  background: #defff248;
+}
+
+.coin_price .comman{
+  font-weight: 700;
+}
+
+
+/* explore-coins box */
+.all_coins{
+  background: #c7eae3;
+}
+
+.all_coins_logo {
+  width: fit-content;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ExploreCoin {
+  margin: 4px 0;
+  text-align: center;
+}
+
+.ExploreCoins {
+  display: block;
+  width: 120px;
+  margin: 5px auto;
+  border-radius: 10px;
+  background-color: #a6f2a5;
+  color: #333333;
+  font-weight: bold;
+  padding: 2px 4px;
+  text-align: center;
+  cursor: pointer;
+}

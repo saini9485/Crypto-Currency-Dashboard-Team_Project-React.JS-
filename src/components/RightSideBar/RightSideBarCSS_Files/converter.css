@@ -1,0 +1,13 @@
+.converter_section input {
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px 0px 0px 10px;
+}
+.converter_section input:focus {
+  border: 0;
+  outline: none;
+}
+.inside_converter_section_1 {
+  display: flex;
+  margin-bottom: 2%;
+}

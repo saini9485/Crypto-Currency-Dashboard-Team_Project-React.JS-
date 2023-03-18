@@ -1,0 +1,26 @@
+.crypto_history_container{
+    display: flex;
+    margin: 10px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.chart_history{
+display: flex;
+gap: 8px;
+}
+.time_history{
+display: flex;
+gap:8px;
+}
+.active-link {
+    font-weight: bold;
+    color: rgb(13, 255, 0);
+  }
+  #links {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .not-active {
+    color: black;
+  
+  }

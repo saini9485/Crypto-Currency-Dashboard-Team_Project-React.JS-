@@ -1,0 +1,89 @@
+.comment_section {
+  max-width: 100%;
+  height: 380px;
+  padding: 0.5rem 1rem;
+  background: #fff1c9;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.comment_section .header-part {
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.comment_section .comments_part {
+  width: 100%;
+  height: 280px;
+  overflow-y: auto;
+}
+
+.comment_section .comments_part ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment_section .input-part {
+  width: 100%;
+  position: absolute;
+  bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.comment_section .input-part input {
+  width: 75%;
+  border-radius: 8px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+}
+
+.comment_section .input-part button {
+  border: none;
+  background: #80ed6b;
+  padding: 6px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.comment_section .input-part button svg {
+  color: #ffffff;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+/* comment_style */
+.comment_style {
+  width: 100%;
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+  margin: 0.2rem 0;
+}
+
+.comment_style .ant-avatar {
+  margin-right: 8px;
+}
+
+.comment_style .text {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+  padding: 2px 4px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+/* custom-scrollbar */
+.comments_part::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+.comments_part::-webkit-scrollbar-thumb {
+  background-color: #fb541a;
+}

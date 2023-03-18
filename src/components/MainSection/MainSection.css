@@ -1,0 +1,77 @@
+.crypto_main_container {
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0 1rem;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+.top-toggle{
+  margin-top: 3px;
+  margin-right: 0%;
+  margin-left: 10px;
+}
+.white {
+  background-color: white;
+  color: black;
+  border-radius: 1px;
+}
+.dark {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.main_header {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Investment .rate {
+  font-size: 1.7rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.profit_loss {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 10px;
+  color: #07fc07;
+  background-color: #defff2;
+  font-weight: 600;
+}
+
+/* custom-scrollbar */
+.crypto_main_container::-webkit-scrollbar-track {
+  background-color: #c7c7c7;
+  border-radius: 10px;
+}
+
+.crypto_main_container::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+.crypto_main_container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(122, 153, 217);
+}
+
+
+
+@media screen and (max-width: 510px) {
+  .main_header{
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  
+  .main_header .Investment .rate{
+    font-size: 1.3rem;
+  }
+
+  .main_header .Investment .profit_loss{
+    font-size: 0.6rem;
+  }
+}

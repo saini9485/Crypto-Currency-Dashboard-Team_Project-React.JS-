@@ -1,0 +1,187 @@
+/* .signup_section_contentt {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.signup_sectionn {
+  display: flex;
+  background-color: rgb(223, 234, 222);
+  justify-content: center;
+  padding: 4%;
+  width: 70%;
+  border-radius: 5px;
+  background: url(../../Images//sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signup_sectionn .left_section {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  padding: 8%;
+  border-radius: 0px 0px 40px 0px;
+}
+.Sign_up_btn {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  width: 100%;
+}
+.Sign_up_btn .btn {
+  width: 40%;
+  margin-top: 1%;
+}
+.login_btnn {
+  margin-top: 8%;
+}
+.right_section_signupp .signup_page_imagee {
+  padding: 8%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right_section_signupp .signup_page_imagee p {
+  text-align: center;
+}
+.right_section_signupp .signup_page_imagee h1 {
+  font-weight: bold;
+  font-family: serif;
+  font-size: 2.5rem;
+}
+.right_section_signupp {
+  width: 50%;
+  min-height: 70vh;
+
+  background-color: rgb(248, 230, 212);
+  border-radius: 40px 0px 0px 0px;
+} */
+
+/* -------------------------- */
+.main_log_in{
+  display: flex;
+  /* background-color: antiquewhite; */
+
+
+
+}
+.log_in_right_section{
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(90, 109, 186); */
+  background-color: rgb(104, 185, 150);
+
+  width: 50%;
+  padding: 5%;
+  border-radius: 4px;
+
+
+}
+.log_in_left_section{
+  width: 50%;
+  /* background-color: rgb(175, 116, 116); */
+  padding: 5%;
+text-align: center;
+}
+
+.log_in_right_section input{
+  border-radius: 2px;
+  margin-bottom: 4%;
+  /* height: 2%; */
+  border: none;
+  padding:6px
+}
+.log_in_right_section Button{
+  width: 30%;
+  border-radius: 2px;
+}
+
+.log_in_right_section input:focus{
+  outline: none;
+  }
+/* ---------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_sign_up{
+  display: flex;
+  /* background-color: rgb(94, 184, 192); */
+
+}
+
+.sign_up_left_section{
+  background-color: rgb(104, 185, 150);
+  padding: 5%;
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: rgb(255, 255, 255); */
+
+  /* display: flex;
+  flex-direction: column;
+  align-content: space-between; */
+
+}
+.sign_up_left_section input{
+  border-radius: 2px;
+  margin-bottom: 4%;
+  /* height: 2%; */
+  border: none;
+  padding:6px
+  
+}
+.sign_up_left_section input:focus{
+outline: none;
+}
+.sign_up_left_section h1{
+  margin-bottom: 4%;
+  font-weight: bold;
+  font-size: 2rem;
+  
+}
+.sign_up_right_section{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+/* .left_section .sign_up_btn{
+  display: flex;
+  justify-content: center;
+} */
+.sign_up_left_section Button{
+  width: 30%;
+  border-radius: 2px;
+
+}

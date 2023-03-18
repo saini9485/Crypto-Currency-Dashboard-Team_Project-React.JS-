@@ -1,0 +1,131 @@
+/* ************************* about-us ************************* */
+.about_us_section {
+  width: 100%;
+  padding: 1.5rem;
+  background: #f7fafc;
+}
+
+.about_us_section .heading {
+  font-size: 2.5rem;
+}
+
+.about_us_section .content_data {
+  display: flex;
+  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: auto 40%;
+  place-items: center;
+}
+
+.about_us_section .content_data .content_text {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+}
+
+.about_us_section .content_data .content_text .sub-heading {
+  text-decoration: underline;
+}
+
+/* ************************* middle background image ************************* */
+.middle_text {
+  text-align: center;
+  line-height: 0.8;
+  padding: 8%;
+  background: url(../Assets/Images/bg.png);
+}
+
+.middle_text h4 {
+  font-size: 2.6rem;
+}
+
+/* ************************* team-members ************************* */
+.team_member {
+  width: 100%;
+  margin: 0.5rem 0 0;
+  padding: 1.5rem 0;
+  background: #f7fafc;
+}
+
+.team_member .heading {
+  text-align: center;
+  color: #14373f;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.members_list {
+  width: 90%;
+  margin: 5rem auto 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  column-gap: 3%;
+}
+
+.member_details {
+  width: 100%;
+  background: #dff1f2;
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  position: relative;
+  text-align: center;
+}
+
+.member_details img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -60%);
+  padding: 20px;
+  border: 1px solid #dff1f2;
+  background: #ffffff;
+}
+
+.member_details h2 {
+  margin: 85px 0 0;
+  font-size: 1.7rem;
+  color: #333333;
+}
+
+.member_details p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #838e8e;
+}
+
+.member_details .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member_details .social-icons svg {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  color: #598cbc;
+}
+.customer_support{
+  height: 50px;
+  width: 100%;
+  background-color: #8dbce8;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+   display: flex
+   
+}
+.customer_support_btn{
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(65, 65, 230);
+  color: white;
+  width: 120px;
+  height: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}

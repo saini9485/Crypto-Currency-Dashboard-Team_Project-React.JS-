@@ -1,0 +1,15 @@
+.notification_Theme i{
+    font-size: 1.2rem;
+    margin: 0 0.8rem;
+    cursor: pointer;
+}
+.white {
+    background-color: white;
+    color: black;
+    border-radius: 1px;
+  }
+  .dark {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }

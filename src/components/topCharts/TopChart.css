@@ -1,0 +1,61 @@
+.supply_box{
+  width: 30%;
+  height: 110px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+.ChartImage{
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 10px 10px 10px;
+  clear: both;
+}
+
+.Supply{
+  font-weight: bold;
+}
+
+.circulatingData{
+  color: green;
+}
+
+.totalData{
+color: rgb(9, 9, 246);
+}
+
+.maxData{
+  color: rgb(231, 76, 76);
+}
+
+.circulating_supply{
+  background-color: rgb(162, 162, 247);
+}
+
+.total_supply {
+  background-color: rgb(189, 243, 225);
+}
+
+.max_supply {
+  background-color: rgb(220, 246, 194);
+}
+
+.supply_box .chart, .supply_box svg{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .supply_box{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .supply_box{
+    width: 100%;
+  }
+}

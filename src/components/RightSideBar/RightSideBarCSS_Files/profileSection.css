@@ -1,0 +1,13 @@
+.profile_section {
+  display: flex;
+  align-items: center;
+}
+
+.profile_section span {
+  font-size: 0.8rem;
+}
+
+.profile_avatar {
+  margin: 0 10px;
+  cursor: pointer;
+}

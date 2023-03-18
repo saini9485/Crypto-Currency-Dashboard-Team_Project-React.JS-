@@ -1,0 +1,37 @@
+.policy_section {
+  width: 90%;
+  margin: auto;
+  padding: 4%;
+}
+
+.policy_section .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.policy_section h1{
+  color: #333333;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.policy_section h3{
+  font-size: 1.2rem;
+}
+
+.policy_section .header svg{
+  font-size: 2.5rem;
+  color: violet;
+  margin-right: 20px;
+}
+
+hr{
+  margin: 0.5rem 0 1rem;
+}
+
+.policyText{
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
+

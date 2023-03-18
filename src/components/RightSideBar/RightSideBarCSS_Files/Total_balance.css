@@ -1,0 +1,30 @@
+.Total_balance {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+}
+
+.Total_balance .balance{
+  color: #333333;
+}
+
+.Total_balance .balance h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.Total_balance .balance .total_amount{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.Total_balance .arrow svg{
+  font-size: 2rem;
+  font-weight: 200;
+}

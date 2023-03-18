@@ -1,0 +1,32 @@
+.investment_main_container{
+    display: flex;
+}
+.left_container{
+    margin: 3% 0% 0% 2%;
+}
+.plane_calculator{
+    width: 90%;
+    height: 60%;
+    margin-top: 3%;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    border-radius: 10px;
+}
+.Slider{
+    margin: 10px;
+}
+.slider{
+    width: 80%;
+}
+.right_container{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40%;
+    height: 50%;
+    margin:15% 2%;
+  
+
+}
+.plane_img{
+margin: auto;
+}

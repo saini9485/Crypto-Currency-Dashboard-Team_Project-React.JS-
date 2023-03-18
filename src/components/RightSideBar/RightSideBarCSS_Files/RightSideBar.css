@@ -1,0 +1,22 @@
+.Right_sidebar_section {
+  max-width: 100%;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  background: #fafafa;
+  overflow: hidden;
+}
+
+.Converter_section, .comment_section_screen{
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.Converter_section {
+  margin: 0.8rem 0;
+}
+
+.Converter_section {
+  border-radius: 10px;
+  padding: 0.5rem;
+  background: #ffffff;
+}
