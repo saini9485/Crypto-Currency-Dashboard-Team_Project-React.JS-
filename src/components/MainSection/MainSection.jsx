@@ -18,7 +18,7 @@ export function MainSection() {
         <div className={lightDark ? "white" : "dark"}>
         <div className="main_header">
           <div className="Investment">
-            <span className="rate">$34,5464.89 </span>
+            <span className="rate">$40,5464.89 </span>
             <span className="profit_loss">+$454.67</span>
           </div>
           <div style ={{display:"flex"}}>
