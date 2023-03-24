@@ -61,7 +61,6 @@ export const Members = [
   {
     img: member1,
     name: "Mofijul Haque",
-    title: "Team Leader",
     linkedin: "https://www.linkedin.com/in/mofijul-haque-359941230/",
     icon1: <RiLinkedinFill />,
     github: "https://github.com/MOFIJULHAQUE",
@@ -72,7 +71,6 @@ export const Members = [
   {
     img: member2,
     name: "Rajesh Saini",
-    title: "Team Member",
     linkedin: "https://www.linkedin.com/in/rajesh-saini9485//",
     icon1: <RiLinkedinFill />,
     github: "https://github.com/saini9485",
@@ -83,7 +81,6 @@ export const Members = [
   {
     img: member3,
     name: "Abhishek Kolapkar",
-    title: "Team Member",
     linkedin: "https://www.linkedin.com/in/abhi-kolapkar",
     icon1: <RiLinkedinFill />,
     github: "https://github.com/Pro-Abhi",
